@@ -10,11 +10,9 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
     private Double salary;
 
-    // Constructors, getters and setters
     public Employee() {
     }
 
@@ -23,6 +21,7 @@ public class Employee {
         this.salary = salary;
     }
 
+    // Getters and setters
     public Long getId() {
         return id;
     }
